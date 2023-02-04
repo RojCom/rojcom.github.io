@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    min-width: 1366px;
+}
+body{
+    /* background-color: #f2f7ff; */
+    background-image: linear-gradient(to bottom, #184259 100%, #184259 100%);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+}
+#container , .container{
+    margin: 0 auto;
+    padding: 0 ;
+    height: auto;
+}
+/* === top header and animation ===*/
+.container .header_bar{
+    height: 65px;
+    width: 100%;
+    padding: 20px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    animation: header_bar 2s 2;
+    -webkit-animation: header_bar 1.5s 1;
+}
+@keyframes header_bar {
+    0%{
+        margin: -50px auto 0 auto;
+    }
+
+}
+
+/* === top header and animation end here ===*/
+
+.container .header_bar .header_left_bar{
+    height: 100%;
+    width: 100px;
+    padding: 3px 0 3px 10px;
+}
+
+.container .header_bar .header_left_bar .logo{
+    height: 100%;
+}
+.container .header_bar .header_right_bar {
+    height: 100%;
+    width: 80%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+/* == main menu and menu animation == */
+.container .header_bar .header_right_bar .menu{
+    height: 100%;
+    width: 100%;
+}
+
+/* == main menu and menu animation  end here == */
+/* == main menu item  and menu item animation  == */
+.container .header_bar .header_right_bar .menu  .menu_item1{
+    height: 100%;
+    width: 100%;
+}
+.container .header_bar .header_right_bar .menu .menu_item1 .desktop_menu{
+    display:flex;
+    justify-content: flex-end;
+    place-items: center;
+}
+.container .header_bar .header_right_bar .menu .menu_item1 .desktop_menu .d_item{
+    margin: 0 0 0 15px;
+    padding: 5px 0 ;
+}
+.container .header_bar .header_right_bar .menu .menu_item1 .desktop_menu .d_item:hover {
+    animation: list_item 1s 2;
+    -webkit-animation: list_item 1s 1;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: 0 35px;
+}
+@keyframes list_item {
+    0%{
+        background-image: linear-gradient(to right, #ffffff, #ffffff);
+        background-repeat: no-repeat;
+        background-size: 0 3px;
+    }
+    100%{
+        background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+        background-repeat: no-repeat;
+        background-size: 100% 3px;
+    }
+}
+.container .header_bar .header_right_bar .menu .menu_item1 .desktop_menu a{
+    font-size: 18px;
+    font-family: poppin-regular;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    text-transform: capitalize;
+}
+.container .header_bar .header_right_bar .menu .menu_item2 , .menu_item3{
+    display: none;
+}
+
+/* == main menu item  and menu item animation end here == */
+
+.container .wrapper{
+    height: auto;
+    width: 100%;
+}
+.container .wrapper  .roj_com_slogan{
+    width: 500px;
+}
+.container .wrapper  .roj_com_slogan .logo_name{
+    width: 500px;
+    height: auto;
+    dis
+}
+.container .wrapper  .roj_com_slogan .logo_name h2{
+    width: 500px;
+}
+.container .wrapper  .roj_com_slogan .logo_name img{
+    width: 30px;
+}
+/* wrapper alll contents*/
+
+/*========Newsletter=======*/
+.container .newsletter{
+    height: 340px;
+    width: 100%;
+    background: #1d4f6a;
+    padding: 100px 0;
+}
+.container .newsletter .n_letter{
+    font-family: poppin-light;
+    color: #fff;
+    text-align: center;
+}
+.container .newsletter .updates{
+    font-family: poppin-light;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.container .newsletter  .updates_mail{
+    height: 40px;
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    padding: 0 0 0 10px;
+    text-transform: lowercase;
+}
+/*========Newsletter=======*/
+/*==========Footer=========*/
+.container .footer_bar{
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #184259;
+}
+.container .footer_bar .footer_left{
+    height: auto;
+    width: calc(100% / 3);
+    background-color: #ffffff00;
+}
+.container .footer_bar .footer_left .company_msg{
+    color: #b6b6b6;
+    font-family: quicksand-bold;
+    font-weight: 600; 
+}
+.container .footer_bar .footer_left .com_msg{
+    color: #b6b6b6;
+    font-family: roboto-light;
+    margin: 6px 0;
+}
+.container .footer_bar .footer_left .com_msg .sh{
+    font-family: roboto-regular;
+    font-weight: 600;
+}
+.container .footer_bar .footer_left .copyright_m , .copyright{
+    font-size: 13px;
+    font-family: roboto-light;
+    color: #b6b6b6;
+}

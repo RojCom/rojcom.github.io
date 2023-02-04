@@ -1,0 +1,221 @@
+@media screen and (min-width:360px) and (max-width: 414px) and (orientation:portrait) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background-image: none;
+    }
+
+    #container {
+        margin: o auto;
+    }
+
+    /* === top header and animation ===*/
+    .container .header_bar {
+        height: 45px;
+        width: 100%;
+        padding: 3px 0;
+        display: flex;
+        justify-content: space-between;
+        animation: header_bar 2s 2;
+        -webkit-animation: header_bar 1.5s 1;
+    }
+
+    @keyframes header_bar {
+        0% {
+            background-color: rgb(255, 255, 255);
+            margin: -50px auto 0 auto;
+        }
+
+        50% {
+            background-color: rgb(191, 215, 235);
+        }
+
+        100% {
+            background-color: rgb(255, 255, 255);
+        }
+    }
+
+    /* === top header and animation end here ===*/
+
+    .container .header_bar .header_left_bar {
+        height: 100%;
+        width: 100px;
+    }
+
+    .container .header_bar .header_left_bar .logo {
+        height: 100%;
+    }
+
+    .container .header_bar .header_right_bar {
+        height: 100%;
+        width: auto;
+    }
+
+    /* == main menu and menu animation == */
+    .container .header_bar .header_right_bar .menu {
+        height: 100%;
+        width: 80px;
+        padding: 0 ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        animation: main_menu 4s 3;
+        -webkit-animation: main_menu 1s 1s 1;
+        background-image: linear-gradient(to right, #ffffff00, #ffffff00);
+        background-size: 100% 2px;
+        background-position: 0 32px;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes main_menu {
+        0% {
+            background-image: linear-gradient(to right, #fff, #000);
+            background-size: 20px 2px;
+            background-position: right 32px;
+            background-repeat: no-repeat;
+        }
+
+        50% {
+            background-image: linear-gradient(to right, #000, #fff);
+            background-size: 20px 2px;
+            background-position: left 32px;
+            background-repeat: no-repeat;
+        }
+
+        100% {
+            background-image: linear-gradient(to right, #fff, #000);
+            background-size: 20px 2px;
+            background-position: right 32px;
+            background-repeat: no-repeat;
+        }
+    }
+
+    /* == main menu and menu animation  end here == */
+    /* == main menu item  and menu item animation  == */
+    .container .header_bar .header_right_bar .menu .item {
+        height: 12px;
+        width: 12px;
+        background-color: rgb(119, 119, 119);
+        cursor: pointer;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+        animation: menu_items 2s 1s 1;
+        -webkit-animation: menu_items 2s 1s 1;
+    }
+
+    @keyframes menu_items {
+        0% {
+            margin: 0 0 0 0;
+        }
+
+        50% {
+            margin: -20px 0 0 0;
+            background-color: rgb(52, 174, 255);
+        }
+
+        75% {
+            margin: 20px 0 0 0;
+            background-color: rgb(87, 242, 44);
+        }
+
+        100% {
+            margin: 0;
+        }
+
+    }
+    .container .header_bar .header_right_bar .menu .menu_item2,
+    .menu_item3 {
+        display: inline;
+    }
+    .container .header_bar .header_right_bar .menu .desktop_menu {
+        display: none !important;
+    }
+
+    /* == main menu item  and menu item animation end here == */
+
+    /* wrapper alll contents*/
+    .container .wrapper {
+        height: auto;
+        width: 100%;
+        margin: 100px 0 20px 0;
+        padding: 20px 10px;
+        background-color: rgb(255, 255, 255);
+    }
+    /* ========== rojcom slogan ========= */
+    .container .wrapper .roj_com_slogan {
+        height: 100px;
+        width: 100%;
+        padding: 10px 10px ;
+        margin: -66px auto 0 auto;
+        background: #184259;
+        outline: none;
+        border-radius: 0 0 10px 10px;
+        -webkit-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+        -ms-border-radius: 0 0 10px 10px;
+        -o-border-radius: 0 0 10px 10px;
+}
+
+    .container .wrapper .roj_com_slogan .slogan {
+        font-family: quicksand-regular;
+        text-align: center;
+        color: #fff;
+    }
+
+    .container .wrapper .company {
+        height: auto;
+        width: 100%;
+        background-color: #dfdfdf58;
+    }
+
+    /* wrapper alll contents end here*/
+    /*==========Footer=========*/
+    .container .footer_bar {
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff95;
+    }
+
+    .container .footer_bar .footer_left {
+        height: auto;
+        width:100%;
+        background-color: #ffffff00;
+    }
+
+    .container .footer_bar .footer_left .company_msg {
+        color: rgb(51, 51, 51);
+        font-family: quicksand-bold;
+        font-weight: 600;
+    }
+
+    .container .footer_bar .footer_left .com_msg {
+        color: #000;
+        font-family: roboto-light;
+        margin: 6px 0;
+    }
+
+    .container .footer_bar .footer_left .com_msg .sh {
+        font-family: roboto-regular;
+        font-weight: 600;
+    }
+
+    .container .footer_bar .footer_left .copyright_m,
+    .copyright {
+        font-size: 12px;
+        font-family: roboto-light;
+    }
+}

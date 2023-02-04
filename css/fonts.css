@@ -1,0 +1,214 @@
+/* quicksand fonts*/
+@font-face {
+    font-family: quicksand-light;
+    src: url(../fonts/Quick_Sand_Fonts/Quicksand-Light.otf);
+
+}
+
+@font-face {
+    font-family: quicksand-lightitalic;
+    src: url(../fonts/Quick_Sand_Fonts/Quicksand-LightItalic.otf);
+}
+
+@font-face {
+    font-family: quicksand-italic;
+    src: url(../fonts/Quick_Sand_Fonts/Quicksand-Italic.otf)
+}
+
+@font-face {
+    font-family: quicksand-regular;
+    src: url(../fonts/Quick_Sand_Fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: quicksand-bold;
+    src: url(../fonts/Quick_Sand_Fonts/Quicksand-Bold.otf);
+}
+
+@font-face {
+    font-family: quicksand-bold-italic;
+    src: url(../fonts/Quick_Sand_Fonts/Quicksand-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: quicksand-dash;
+    src: url(../fonts/Quick_Sand_Fonts/Quicksand_Dash.otf);
+}
+
+/* Roboto Fonts*/
+@font-face {
+    font-family: roboto-black;
+    src: url(../fonts/roboto_fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto-black-italic;
+    src: url(../fonts/roboto_fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../fonts/roboto_fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold-italic;
+    src: url(../fonts/roboto_fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-italic;
+    src: url(../fonts/roboto_fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/roboto_fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-light-italic;
+    src: url(../fonts/roboto_fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/roboto_fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium-italic;
+    src: url(../fonts/roboto_fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/roboto_fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(../fonts/roboto_fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin-italic;
+    src: url(../fonts/roboto_fonts/Roboto-ThinItalic.ttf);
+}
+
+/* Poppins fonts*/
+@font-face {
+    font-family: poppin-black;
+    src: url(../fonts/poppins_fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: poppin-black-italic;
+    src: url(../fonts/poppins_fonts/Poppins-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: poppin-bold;
+    src: url(../fonts/poppins_fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppin-bold-italic;
+    src: url(../fonts/poppins_fonts/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: poppin-extra-bold;
+    src: url(../fonts/poppins_fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: poppin-extra-bold-italic;
+    src: url(../fonts/poppins_fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: poppin-extra-light;
+    src: url(../fonts/poppins_fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: poppin-extra-light-italic;
+    src: url(../fonts/poppins_fonts/Poppins-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: poppin-italic;
+    src: url(../fonts/poppins_fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: poppin-light;
+    src: url(../fonts/poppins_fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppin-light-italic;
+    src: url(../fonts/poppins_fonts/Poppins-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: poppin-medium;
+    src: url(../fonts/poppins_fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: poppin-medium-italic;
+    src: url(../fonts/poppins_fonts/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: poppin-regular;
+    src: url(../fonts/poppins_fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppin-semi-bold;
+    src: url(../fonts/poppins_fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: poppin-semi-bold-italic;
+    src: url(../fonts/poppins_fonts/Poppins-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: poppin-thin;
+    src: url(../fonts/poppins_fonts/Poppins-Thin.ttf);
+}
+
+@font-face {
+    font-family: poppin-thin-italic;
+    src: url(../fonts/poppins_fonts/Poppins-ThinItalic.ttf);
+}
+
+/*social media logos and brand logo fonts*/
+@font-face {
+    font-family: open-logos;
+    src: url(../font-social/openlogos.ttf);
+}
+
+@font-face {
+    font-family: social-circles;
+    src: url(../font-social/Social-Circles.otf);
+}
+
+@font-face {
+    font-family: social-icon;
+    src: url(../font-social/Social-Icon-by-BRIANQC.ttf);
+}
+
+@font-face {
+    font-family: social-media-circled;
+    src: url(../font-social/Social-Media-Circled.otf);
+}
+
+@font-face {
+    font-family: social-type;
+    src: url(../font-social/SocialType.ttf);
+}
